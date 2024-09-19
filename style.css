@@ -1,0 +1,605 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Playfair Display", serif;
+}
+
+/* main */
+
+/* discoverv page */
+.discover-sec {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.diccover-bg {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffdd;
+}
+
+.discover-container {
+    display: flex;
+    width: 70%;
+    height: fit-content;
+}
+
+.discover {
+    width: 100%;
+    height: 70%;
+    background: url(scr/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.discover-img {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+}
+
+.d-box img {
+    width: 300px;
+}
+
+.d-box {
+    gap: 10px;
+}
+
+.d-content {
+    background-color: #0f1a2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    gap: 20px;
+}
+
+.discover-box1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.discover-box2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.d-content h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.d-content i {
+    font-size: 2.5rem;
+    color: #f6ac0f;
+}
+
+.d-content p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+}
+
+.discover-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+
+.discover-content span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #647488;
+}
+
+.discover-content h3 {
+    font-size: 3.5rem;
+}
+
+.discover-content p {
+    font-size: 1rem;
+    color: #647488;
+    width: 600px;
+}
+
+.discover-content button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1rem;
+    background-color: #f6ac0f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* discoverv page end */
+
+
+
+
+
+
+/* room page */
+.room-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.room-container {
+    width: 70%;
+    height: fit-content;
+}
+
+.room-h {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.room-h span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #647488;
+}
+
+.room-h h1 {
+    font-size: 3rem;
+}
+
+.room-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.room-img {
+    width: 420px;
+    height: 320px;
+    position: relative;
+    box-shadow: 0px 0px 20px #64748876;
+}
+
+.r-1 {
+    background: url(scr/room-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.r-2 {
+    background: url(scr/room-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.r-3 {
+    background: url(scr/room-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.room-content {
+    position: absolute;
+    bottom: -50px;
+    right: 50%;
+    transform: translatex(50%);
+    display: flex;
+    width: 95%;
+    height: fit-content;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #64748876;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.room-price {
+    display: flex;
+    align-items: center;
+}
+
+.room-price span {
+    color: #f6ac0f;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+/* intro page */
+.intro-section {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-color: #f6ac0f;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.intro-content {
+    width: 75%;
+    height: 100%;
+    background: #0f1a2c;
+    position: relative;
+}
+
+.content-intro {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: -55px;
+}
+
+.intro-video {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+}
+
+.intro-video video {
+    height: 250px;
+}
+
+.intro-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-details span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f6ac0f;
+}
+
+.intro-details h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.intro-details p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.intro-details button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 1rem;
+    background-color: #f6ac0f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* intro video page end */
+
+
+
+
+
+
+/* features page */
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.features-conatiner {
+    width: 70%;
+    height: fit-content;
+}
+
+.f-heading {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.f-heading span {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #647488;
+}
+
+.f-heading h1 {
+    font-size: 3rem;
+}
+
+.features-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feautres-box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+    height: fit-content;
+}
+
+.f-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-box1 i {
+    font-size: 2rem;
+    color: #f6ac0f;
+}
+
+.f-box1 p {
+    font-size: 1rem;
+    color: #647488;
+}
+
+/* features page end */
+
+
+
+
+
+
+/* food menu page */
+.food-section {
+    width: 100%;
+    height: 160vh;
+    background: #f8fafc;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-container {
+    width: 70%;
+    height: fit-content;
+}
+
+.food-heading {
+    width: 100%;
+    height: fit-content;
+}
+
+.food-heading span {
+    font-size: 1rem;
+    color: #647488;
+}
+
+.food-heading h1 {
+    font-size: 3rem;
+}
+
+.food-details {
+    padding-top: 70px;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    height: fit-content;
+}
+
+.food-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 520px;
+    height: fit-content;
+}
+
+.food-img img {
+    height: 120px;
+}
+
+.food {
+    display: flex;
+}
+
+.about-food {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 15px;
+    height: 120px;
+    transition: 0.10s linear all;
+}
+
+.about-food:hover {
+    background-color: #0f1a2c;
+    color: #fff;
+}
+
+.food-dish {
+    padding-top: 70px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 50px;
+}
+
+.food-dish img {
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #64748893;
+}
+
+.food-future {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: #0f1a2c;
+}
+
+.food-follower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 280px;
+    height: 280px;
+}
+
+.food-pronects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-icon i {
+    font-size: 2.5rem;
+    color: #f6ac0f;
+}
+
+.food-pronects span {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.food-pronects p {
+    font-size: 1rem;
+    color: #647488;
+}
+
+/* food menu page end*/
+
+
+
+
+
+
+
+/* vlog page */
+.vlog-section {
+    width: 100%;
+    height: 80vh;
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vlog-container {
+    width: 70%;
+    height: fit-content;
+}
+
+.vlog-heading {
+    width: 100%;
+    height: fit-content;
+}
+
+.vlog-heading span {
+    font-size: 1rem;
+    color: #647488;
+}
+
+.vlog-heading h1 {
+    font-size: 3rem;
+}
+
+.vlog-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.vlog-image img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.vlog {
+    width: 400px;
+    height: fit-content;
+}
+
+.vlog-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vlog-dates {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vlog-dates span {
+    font-size: 1rem;
+    color: #647488;
+}
+
+.vlog-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vlog-details p {
+    font-size: 1rem;
+    color: #647488;
+}
+
+/* vlog page end*/
+
+/* main end */

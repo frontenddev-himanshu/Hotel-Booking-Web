@@ -1,0 +1,448 @@
+/* responsive laptop */
+@media screen and (max-width:1366px) {
+
+    /* header */
+    .nav-inputs {
+        gap: 20px;
+    }
+
+    .input-box {
+        gap: 5px;
+    }
+
+    .input-box input {
+        width: 220px;
+    }
+
+    .input-btn button {
+        width: 220px;
+    }
+
+    /* discover page */
+    .discover-sec {
+        height: 90vh;
+    }
+
+    .discover-content {
+        width: 50%;
+        padding: 10px;
+
+    }
+
+    .d-box img {
+        width: 230px;
+    }
+
+    .room-section {
+        height: 90vh;
+    }
+
+    .room-img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .room-content {
+        padding: 5px;
+    }
+
+    /* intro page */
+    .intro-section {
+        height: 70vh;
+    }
+
+    .content-intro {
+        width: 85%;
+    }
+
+    /* features page */
+    .features {
+        height: 90vh;
+    }
+
+    .feautres-box {
+        width: 300px;
+    }
+
+    /* food-section */
+    .food-section {
+        height: 200vh;
+    }
+
+    .food-dish img {
+        height: 270px;
+    }
+
+    .vlog-section {
+        height: 100vh;
+    }
+
+    .vlog-image img {
+        width: 300px;
+    }
+
+    .vlog {
+        width: 300px;
+    }
+
+    /* footer */
+    footer{
+        height: 60vh;
+    }
+
+}
+
+
+
+
+
+
+/* responsive mobile */
+@media screen and (max-width:765px) {
+
+    /* header */
+    header {
+        height: fit-content;
+    }
+
+    nav {
+        position: relative;
+        width: 100%;
+        border-radius: 0px;
+        top: 0px;
+        padding: 0px 10px;
+        position: fixed;
+        z-index: 1;
+        box-shadow: 0px 0px 5px #000;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .bar-icon {
+        display: block;
+        color: #64748b;
+        font-size: 1.5rem;
+    }
+
+    .front {
+        margin-top: 10vh;
+        height: 90vh;
+    }
+
+    .front-content {
+        width: 95%;
+        gap: 5px;
+    }
+
+    .front-content span {
+        font-size: 0.9rem;
+    }
+
+    .front-content h1 {
+        font-size: 5rem;
+        width: 300px;
+    }
+
+    .front-content button {
+        width: 130px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .nav-inputs {
+        padding: 30px 0px;
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-btn button {
+        width: 180px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .input-box input {
+        border-radius: 5px;
+    }
+
+    /* header end */
+
+
+
+
+
+
+    /* discover section */
+    .discover-sec {
+        padding: 50px 0px;
+        height: fit-content;
+    }
+
+    .discover-container {
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+    }
+
+    .d-box img {
+        width: 380px;
+    }
+
+    .discover {
+        background: none;
+    }
+
+    .discover-img {
+        flex-direction: column;
+    }
+
+    .discover-box1 {
+        flex-direction: column-reverse;
+    }
+
+    .discover-box2 {
+        flex-direction: column-reverse;
+    }
+
+    .d-content {
+        width: 380px;
+    }
+
+    .d-1 {
+        background: #fff;
+    }
+
+    .d-1 h3 {
+        color: #000;
+    }
+
+    .d-1 p {
+        color: #000;
+    }
+
+    .discover-content {
+        padding: 0px;
+        padding-top: 20px;
+        gap: 10px;
+    }
+
+    .discover-content button {
+        width: 130px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .discover-content p {
+        width: 380px;
+    }
+
+    /* discover section end */
+
+
+
+
+
+
+
+    /* room page */
+    .room-section {
+        height: 180vh;
+    }
+
+    .room-container {
+        width: 95%;
+        height: fit-content;
+    }
+
+
+    .room-h h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .room-details {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .room-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* room page end*/
+
+
+
+
+
+    /* intro video page */
+    .intro-section {
+        height: 90vh;
+    }
+
+    .intro-content {
+        width: 100%;
+        height: 80%;
+    }
+
+    .content-intro {
+        width: 95%;
+        height: 70%;
+        flex-direction: column;
+        align-items: center;
+        right: 0px;
+        top: 90px;
+    }
+
+    .intro-details {
+        justify-content: center;
+    }
+
+    .intro-video video {
+        width: 300px;
+    }
+
+    .intro-details h1 {
+        font-size: 2rem;
+    }
+
+    .intro-details button {
+        width: 180px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    /* intro video page end*/
+
+
+
+
+
+    /* features page */
+    .features {
+        height: 200vh;
+    }
+
+    .features-conatiner {
+        width: 90%;
+    }
+
+    .features-details {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* features page end*/
+
+
+
+
+
+
+    /* food menu page */
+    .food-section {
+        height: fit-content;
+        padding: 50px 0px;
+    }
+
+    .food-container {
+        width: 90%;
+    }
+
+    .food-details {
+        padding-top: 50px;
+        flex-direction: column;
+        gap: 15px;
+        height: fit-content;
+    }
+
+    .food-items {
+        height: auto;
+        width: 380px;
+    }
+
+    .food-dish {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .food-dish img {
+        height: 300px;
+    }
+
+    .food-future {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* food menu page end*/
+
+
+
+
+
+
+
+    /* vlog page */
+    .vlog-section {
+        height: 200vh;
+    }
+
+    .vlog-img {
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .vlog-details {
+        gap: 10px;
+    }
+
+    .vlog-content {
+        gap: 10px;
+    }
+
+    .vlog-dates {
+        padding-top: 5px;
+    }
+
+    /* vlog page end*/
+
+
+
+
+
+
+    /* footer */
+    footer{
+        padding: 30px 0px;
+        height: fit-content;
+    }
+    .footer-container{
+        width: 90%;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer-links{
+        width: 380px;
+    }
+    /* footer end */
+
+
+
+
+    /* copyright */
+    .copyright{
+        padding: 20px 0px;
+    }
+    .copyright p{
+        text-align: center;
+    }
+}
